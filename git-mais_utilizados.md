@@ -104,3 +104,14 @@ precisa ser iniciado a partir de um branch já selecionado, que será mesclado c
 
 > git merge <nome_do_branch>
 
+...
+
+```bash
+echo "# node" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lpf-developer/node.git
+git push -u origin main
+```
