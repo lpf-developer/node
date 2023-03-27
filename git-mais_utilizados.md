@@ -13,6 +13,10 @@ Novo projeto Git com um nome específico
 
 > git init <nome do repositório>
 
+Renomear a branch master para main
+
+> git branch -m master main
+
 Clonar um repositório web
 
 > git clone <url do repositório>
